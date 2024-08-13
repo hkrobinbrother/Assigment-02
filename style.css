@@ -491,17 +491,17 @@ header {
     border-radius: 18px;
     object-fit: cover;
 }
-.team-member-card-tittle h1{
+.team-card-tittle h1{
     font-size: 1.25rem;
     font-weight: 900;
     color: #fff;
 }
-.team-member-card-tittle p{
+.team-card-tittle p{
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
     margin-top: 3px;
 }
-.team-member-card-tittle{
+.team-card-tittle{
     position: absolute;
     bottom: 17px;
     left: 19px;
