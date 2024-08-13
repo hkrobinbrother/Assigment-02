@@ -577,3 +577,66 @@ header {
     text-align: center;
     margin-bottom: 30px;
 }
+
+/* ------------------footer area ----------------- */
+
+#footer-container{
+    background-color: rgba(255, 255, 255, 0.1);
+ }
+ .footer-content{
+    max-width: 80%;
+    margin: 0 auto 82px auto;
+    display: flex;
+    align-items: center;
+    padding-top: 66px;
+ }
+ .fitness-content{
+    width: 50%;
+ }
+.fitness-content h1{
+    font-size: 4.375rem;
+    color: #E6533C;
+    font-style: italic;
+    font-weight: 800;
+}
+.fitness-content p{
+    max-width: 443px;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+}
+.contact-content{
+    display: flex;
+    align-items: center;
+    gap: 152px;
+}
+.get-started h1{
+    font-size: 2rem;
+    color: #fff;
+}
+.get-started ul{
+    margin-top: 39px;
+}
+.get-started ul li{
+    list-style: none;
+    margin: 20px 0;
+}
+.get-started ul li a{
+    text-decoration: none;
+    font-size: 1.137rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.copy{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.copy hr{
+    color: rgba(255, 255, 255, 0.1);
+    border: 1px solid;
+}
+.copy p{
+    font-size: 20px;
+    padding: 36px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
