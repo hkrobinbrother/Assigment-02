@@ -640,3 +640,161 @@ header {
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
 }
+
+@media only screen and (max-width: 576px) {
+
+    /* header area  */
+
+    .content-bar ul {
+        display: none;
+    }
+
+    #hembarger-icon {
+        display: block;
+    }
+
+    .banner-section{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .banner-tittel h1 {
+        font-size: 2.25rem;
+        min-width: 285px;
+        margin-top: 50px;
+    }
+
+    .banner-tittel p {
+        min-width: 285px;
+    }
+
+    .btn {
+        padding: 16px 30px;
+        font-size: 16px;
+    }
+
+    .btn span {
+        display: none;
+    }
+
+    .b-btn {
+        padding: 16px;
+        font-size: 15px;
+    }
+
+    .banner-image .box-1 {
+        width: 170px;
+        top: 5%;
+    }
+
+    .banner-image .box-2 {
+        width: 170px;
+        right: 50%;
+
+    }
+
+    .box-1 h1 {
+        font-size: 30.24px;
+    }
+
+    .box-1 a {
+        font-size: 9.5px;
+    }
+
+    .box-2 h1 {
+        font-size: 18.14px;
+    }
+
+    .box-2 a {
+        font-size: 12.1px;
+    }
+
+/* habits secrion start  */
+    .hbt-iteams {
+         grid-template-columns: repeat(1, 1fr);
+     }
+
+
+ /* extra-habits section  */
+
+    .ext-habit {
+        flex-direction: column;
+    }
+    .ext-habit-tittle h1{
+        font-size: 32px;
+    }
+    .ext-habit-tittle button{
+        padding: 16px 50px;
+        font-size: 16px;
+    }
+    .ext-habit-img img{
+        max-width: 287px;
+        max-height: 170px;
+    }
+
+/* ------calculator-section-------- */
+.calculator-content h1{
+    font-size: 32px;
+}
+.table-section{
+    margin: 33px 0 65px 0;
+}
+.table-content{
+    flex-direction: column;
+}
+.table{
+    width: 100%;
+}
+.form form select{
+    max-width: 40%;
+}
+#select-option{
+    max-width: 88%;
+}
+.form form input{
+    max-width: 40%;
+}
+.form button{
+    padding: 16px 50px;
+    font-size: 16px;
+}
+
+/* -------------------our team section--------------------- */
+
+.our-tittle h1{
+    font-size: 32px;
+}
+.our-teams{
+    grid-template-columns: repeat(1, 1fr);
+}
+.our-teams-member img{
+    max-width: 100%;
+    height: 100%;
+}
+
+   /* -----------------------our classes section --------------------- */
+   .class-section-content h1{
+    font-size: 32px;
+}
+.class-our{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+    /* ------------------footer area ----------------- */
+    .footer-content{
+        flex-direction: column;
+    }
+    .fitness-content{
+        width: 100%;
+    }
+    .contact-content{
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        align-items: normal;
+    }
+    .copy p{
+        font-size: 14px;
+    }
+    
+}
