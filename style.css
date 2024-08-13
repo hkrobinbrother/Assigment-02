@@ -506,3 +506,74 @@ header {
     bottom: 17px;
     left: 19px;
 }
+
+/* -----------------------our classes section --------------------- */
+.our-classes-container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.class-section-content h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.class-section-content p{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.class-our{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 88px;
+}
+.routin-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.routin-sub{
+    width: 280px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.routin-sub img{
+    width: 280px;   
+    height: 50%;
+    object-fit: cover;
+}
+.routin-container{
+    height: 50%;
+    padding: 20px;
+}
+.routin-container h1{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+.routin-container h4{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-weight: 400;
+    margin: 10px auto 20px auto;
+}
+.routin-container p{
+    max-width: 250px;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-bottom: 30px;
+}
